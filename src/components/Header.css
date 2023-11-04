@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "20011"; 
+    src: url("../fonts/20011.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 2fr 3fr 1fr;
+    background-color: white;
+    height: 120%;
+    box-shadow: 0 4px 15px;
+}
+.logo{
+    width: 60%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+.Info{
+    display: flex;
+    gap: 35%;
+    align-items: center;
+    margin-left: 60%;
+}
+.infoTxt{
+    font-size: 35px;
+    font-family: '20011';
+    width: max-content;
+    text-decoration: none;
+    color: black;
+}
+
+.settings{
+    width: 15%;
+    margin-top: 10%;
+    margin-left: 45%;
+}
+
+@media all and (max-width: 1920px) {
+    .logo{
+        width: 80%;
+    }
+    .infoTxt{
+        font-size: 30px;
+    }
+    .settings{
+        width: 20%;
+        margin-top: 12%;
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .logo{
+        width: 80%;
+    }
+    .infoTxt{
+        font-size: 23px;
+    }
+    .settings{
+        width: 20%;
+        margin-top: 12%;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .logo{
+        width: 70%;
+    }
+    .infoTxt{
+        font-size: 16px;
+    }
+    .settings{
+        width: 20%;
+        margin-top: 12%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .logo{
+        width: 80%;
+    }
+    .infoTxt{
+        font-size: 12px;
+    }
+    .settings{
+        width: 20%;
+        margin-top: 15%;
+    }
+}
+

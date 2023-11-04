@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.footerimg{
+    width: 100%;
+    margin-bottom: -5px;
+    box-shadow: -5px 5px 20px 5px;
+}
+
+.linkbar{
+    display: flex;
+    position: absolute;
+    margin-left: 33%;
+    margin-top: 2%;
+    
+}
+
+.linkimg{
+    width: 30%;
+}
+.sfedu{
+    margin-left: -45%;
+}
+.github{
+    margin-left: -90%;
+}
