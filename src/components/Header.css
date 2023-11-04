@@ -11,48 +11,50 @@
 }
 
 .header{
+    position: relative;
+    z-index: 1;
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
     background-color: white;
-    height: 120%;
+    height: 120px;
     box-shadow: 0 4px 15px;
+    align-items: center;
+    vertical-align: middle;
 }
 .logo{
-    width: 60%;
-    margin-top: 2%;
-    margin-left: 5%;
-    margin-bottom: 2%;
+    width: 50%;
+    margin-left: 8%;
 }
 .Info{
     display: flex;
-    gap: 35%;
+    gap: 30%;
     align-items: center;
     margin-left: 60%;
 }
 .infoTxt{
-    font-size: 35px;
+    font-size: 30px;
     font-family: '20011';
     width: max-content;
     text-decoration: none;
     color: black;
+    white-space: nowrap;
+    
 }
 
 .settings{
     width: 15%;
-    margin-top: 10%;
     margin-left: 45%;
 }
 
 @media all and (max-width: 1920px) {
     .logo{
-        width: 80%;
+        width: 45%;
     }
     .infoTxt{
-        font-size: 30px;
+        font-size: 26px;
     }
     .settings{
-        width: 20%;
-        margin-top: 12%;
+        width: 15%;
     }
 }
 

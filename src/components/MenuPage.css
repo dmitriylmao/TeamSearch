@@ -6,6 +6,8 @@
 }
 
 .mainPage{
+    position: relative;
+    z-index: 0;
     display: grid;
     grid-template-columns: 1fr 5fr;
     height: 1080px;
