@@ -5,6 +5,8 @@ import github from './github.png'
 import moodle from './moodle.png'
 import footer from './footer.jpg'
 import background from './background.jpg'
+import basketballico from './basketballico.png'
+import gameico from './gameico.png'
 
 export {
     logo,
@@ -13,5 +15,7 @@ export {
     sfedu,
     github,
     moodle,
-    background
+    background,
+    basketballico,
+    gameico
 }

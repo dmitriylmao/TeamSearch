@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "20011"; 
     src: url("../fonts/20011.ttf") format("truetype"); 
@@ -9,7 +11,7 @@
     position: relative;
     z-index: 0;
     display: grid;
-    grid-template-columns: 1fr 5fr;
+    grid-template-columns: 370px 5fr;
     height: 1080px;
 }
 
@@ -25,14 +27,14 @@
     font-family: '20011';
     padding: 4%;
     margin: 2%;
-    font-size: 36px;
+    font-size: 32px;
 }
 
 .filter:hover{
     cursor: pointer;
     width: 300px;
     text-align: center;
-    background-color: rgb(169, 168, 168);
+    background-color: rgb(198, 198, 198);
     border-radius: 100px;
 }
 
@@ -47,8 +49,126 @@
     margin-right: auto;
     background-color: #B8B8B8;
     border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.black-rect{
+    background-color: #616161;
+    width: 280px;
+    height: 37px;
+    border-radius: 100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.black-rect{
-    
+.white-rect{
+    background-color: white;
+    position: relative;
+    width: 150px;
+    height: 32px;
+    border-radius: 100px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    transition: transform .5s ease-in-out;
 }
+.white-rect1{
+    transform: translate(130px);
+}
+
+.basketballico{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    left: 37%;
+    transition: transform .5s ease-in-out;
+}
+
+.basketballicoanim{
+    animation: 0.5s linear rotation;
+    animation-fill-mode: forwards;
+}
+
+.basketballicoanimback{
+    animation: 0.5s linear rotationback;
+    animation-fill-mode: forwards;
+}
+
+.gameico{
+    position: absolute;
+    width: 20%;
+    display: none;
+    margin-left: 39%;
+}
+
+.gameicoanim{
+    display: block;
+    animation: 0.5s linear rotation1;
+    animation-fill-mode: forwards;
+}
+
+.gameicoanimback{
+    animation: 0.5s linear rotationback1;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes rotation{
+    0%{
+        transform: rotate(180deg);
+        opacity: 100%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    100%{
+        opacity: 0%;
+        
+    }
+}
+
+@keyframes rotationback{
+    0%{
+        transform: rotate(-180deg);
+        display: block;
+        opacity: 0%;
+        
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+@keyframes rotation1{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+        display: block;
+        
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes rotationback1{
+    0%{
+        transform: rotate(0deg);
+        opacity: 100%;
+        display: block;
+    }
+    50%{
+        transform: rotate(90deg);
+        opacity: 50%;
+    }
+    100%{
+        opacity: 0%;
+        transform: rotate(180deg);
+        display: none;
+    }
+}
+
