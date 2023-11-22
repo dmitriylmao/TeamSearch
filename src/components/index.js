@@ -1,9 +1,8 @@
-import Header from './Header'
-import Footer from './Footer'
-import MenuPage from './MenuPage'
+import Card1 from "./Card";
+
+
 
 export {
-    Header,
-    Footer,
-    MenuPage
+    Card1
+    
 }

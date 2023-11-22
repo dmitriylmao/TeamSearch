@@ -1,0 +1,32 @@
+.txt{
+    margin:100px 0px 0px 0px;
+    
+    width:800px;
+    height: 400px;
+}
+.Welcome{
+    color:rgb(0, 0, 0);
+    font-size:80px;
+    font-weight: 350;
+    line-height: 80px;
+}
+.Servis
+{
+    margin-top: 45px;
+    color:rgb(0, 0, 0);
+    font-size:30px;
+    font-weight: 150;
+}
+.Line1{
+    background-color:black;
+    width: 800px;
+    height: 5px;
+    border-radius: 60px 60px 60px 60px;
+    margin-top: 30px;
+}
+.Why{
+    margin-top: 40px;
+    color:rgb(0, 0, 0);
+    font-size:40px;
+    font-weight:250px;
+}

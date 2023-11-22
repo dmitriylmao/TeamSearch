@@ -1,12 +1,19 @@
+import {Route, Routes } from 'react-router-dom';
 import './App.css';
-import { Header, Footer, MenuPage } from './components';
+import Home from './pages/Home';
+import Menu from './pages/Menu';
+
+
 
 function App() {
   return (
-    <div className='fon'>
-      <Header></Header>
-      <MenuPage></MenuPage>
-      <Footer></Footer>
+    <div >
+      
+          <Routes>
+              <Route path='/' element = {<Home/>}></Route>
+              <Route path='/Menu' element = {<Menu/>}></Route>
+          </Routes>
+      
     </div>
   );
 }
